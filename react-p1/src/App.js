@@ -1,4 +1,6 @@
 import './App.css';
+import HelloWorld from './components/HelloWorld';
+import Paragraph from './components/Paragraph';
 
 function App() {
 
@@ -14,6 +16,10 @@ function App() {
       <h1>Hello World</h1>
       <p>My name is {newName}, this is my first app</p>
       <p> Sum: {sum(1,4)}</p>
+      <HelloWorld/>
+      <Paragraph/>
+      <HelloWorld/>
+      <Paragraph/>
     </div>
   );
 }
