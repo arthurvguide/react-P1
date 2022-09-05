@@ -1,8 +1,10 @@
+import styles from './Paragraph.module.css'
+
 function Paragraph() {
     return (
-        <div>
+        <div className={styles.pContainer}>
             <p>
-                This a component 
+                This a paragraph component 
             </p>
         </div>
     )
